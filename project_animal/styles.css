@@ -1,0 +1,32 @@
+/* add your CSS here */
+.interesting_fact{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+
+.outside_box{
+  width: 300px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #d3d3d3;
+    box-shadow: 5px 5px #efefef;
+}
+
+.inside_box{
+  width: 280px;
+  padding: 9px;
+  border-style: solid;
+  border-color: #d3d3d3;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My HTML notes</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+  <h1>My HTML notes</h1>
+
+  <h2>Markup</h2>
+
+  <p>
+    You have to use markup to tell the browser what to do. <br>
+    Otherwise all of what you write in the browser will be displayed as plain text. <br>
+    In particular, you can use the em tag to write something in italics, for example: <br>
+    <em>Hello, this is an example of the em tag </em>. <br>
+    You have opening and close tags, that generally come in pairs, but not always. <br>
+    Tags will come in angle brackets, these always come in pairs. <br>
+  </p>
+
+  <h2>Tags</h2>
+  <p>Now some interesting tags:
+    <ul>
+      <li>You will use the <strong>br</strong> tag to break a line. </li>
+      <li>You will use the <strong>p</strong> tag to have a paragraph element </li>
+    </ul>
+  </p>
+  <h2>Nesting</h2>
+  <p>Another important thing for your text is to use appropriately <strong>nesting rules</strong>. <br>
+    To use these rules in an appropriate way it is important to not overlap elements. <br>
+    Nesting is generally fine, overlapping, not.
+  </p>
+
+  <p>Here is also a nested list:
+    <ol>
+      <li> Jobs out of Uni
+        <ul>
+          <li>Altran
+          <li>OW
+        </ul>
+      <li> School after Uni
+        <ul>
+          <li> Academy
+          <li> Berkeley
+        </ul>
+    </ol>
+  </p>
+  <h2>Inline vs. Block</h2>
+
+  <p>
+    There is the Inline vs. Block element.<br>
+    <strong>div</strong> is the generic block element.<br>
+    The div element is used <em>a lot</em> in HTML! So better be comfortable wtih it!
+    <strong>span</strong> is the generic inline element.
+  </p>
+
+  <h2>Lists</h2>
+  <p>
+    For ul (unordered list) and ol (ordered list), you always have to have closing tags. <br>
+    Instead, for li (elements of the list), you do not need to have the closing element.
+    This is optional and can or cannot be there.
+  </p>
+
+  <h2>Optional closing tags</h2>
+  <p>
+    There are some elements that have optional closing tags:
+    <ol>
+      <li>List elements
+      <li>Paragraph
+      <li> I'm sure there are others that I forgot/ I do not know yet
+    </ol>
+  </p>
+
+  <h2>URL</h2>
+  URL stands for Uniform Resource Locator.
+  When you write url in HTML, write the full form, the absolute URL, strating from http...
+  Then ://
+  Then a domain name
+  Then a file path (can be empty or a single slash)
+  <a href="http://www.sampdoria.it"> Doria </a >
+
+  <h2>Images</h2>
+  This has no closing tag.
+  There are two attributes to this elemet: 1) is the src; 2) is the Alt.
+  SRC is the link to the image, Alt is the text that is displayed if the image link cannot be found.
+  IMG has no end tag.
+  IMG is an inline element. <br>
+  Here is the picture of a bear <img src="https://placebear.com/800/600" alt="Picture of a bear">
+
+
+  <h2>HTML validators</h2>
+  There are tools that will check your code.
+  Try this one: <a href="https://validator.w3.org"> validator.w3.org </a>
+</html>
